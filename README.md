@@ -16,7 +16,7 @@ Integrate GitHub and GCP Cloud Functions to auto deploy an existing function on 
 ### Parameters
 - **`gcloud functions deploy`** - name of the existing function
 - **`--region`** - region of the existing function 
-- **`--source`** - Cloud Source Repository URL (Cloud Functions > click on function > Details > Equivalent REST)
+- **`--source`** - Cloud Source Repository URL (Cloud Functions > click on the function > Details > Equivalent REST)
 
 
 ```
