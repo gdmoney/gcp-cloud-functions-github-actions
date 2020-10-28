@@ -13,6 +13,12 @@ Integrate GitHub and GCP Cloud Functions to auto deploy an existing function on 
 - GCP Cloud Functions function will be updated every time the `main.py` Python code or the `update-cloud-functions.yml` file are modified
 - deployments can also be automated by scheduling to run the workflow at specific times using `schedule` and `cron` commands
 
+### Parameters
+- **`gcloud functions deploy`** - name of the existing function
+- **`--region`** - region of the existing function 
+- **`--source`** - Cloud Source Repository URL (Cloud Functions > click on function > Details > Equivalent REST)
+
+
 ```
 name: update-cloud-functions
 
