@@ -41,12 +41,11 @@ jobs:
     - name: Check out repo
       uses: actions/checkout@v2
 
-    - name: Setup gcloud
+    - name: Setup gcloud env
       uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:
         project_id: ${{ secrets.GCP_PROJECT_ID }}
         service_account_key: ${{ secrets.GCP_SA_KEY }}
-        export_default_credentials: true
      
     - name: Run
       run: |
