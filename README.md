@@ -1,6 +1,6 @@
 # GCP Cloud Functions and GitHub Actions Integration
 
-Integrate GitHub and GCP Cloud Functions to auto deploy an existing function on code changes.
+Integrates GitHub and GCP Cloud Functions to auto deploy an existing function on code changes.
 
 ### Usage
 - GitHub > Settings > Secrets >  
