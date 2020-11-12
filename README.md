@@ -10,7 +10,7 @@ Integrates GitHub and GCP Cloud Functions to auto deploy an existing function on
 - GitHub > Actions > New workflow > set up a workflow yourself > ...
   - modify the parameters below and copy & paste in the editor
 
-- GCP Cloud Functions function will be updated every time the `main.py` Python code or the `update-cloud-functions.yml` file are modified
+- GCP Cloud Functions function will be updated every time the `main.py` Python code or the `update-cloud-functions.yml` files are modified
 
 ### Parameters
 - **`gcloud functions deploy`** - name of the existing function
