@@ -30,7 +30,7 @@ on:
     - '.github/workflows/update-cloud-functions.yml'
   pull_request:
     branches:
-    - master
+    - main
 
 jobs:
   
