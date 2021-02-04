@@ -55,6 +55,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        
     - name: Run
       run: |
         gcloud functions deploy product-availability-checker \
