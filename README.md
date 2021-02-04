@@ -12,7 +12,7 @@ This example assumes that the GitHub repo containing the function code and its d
 - GitHub > Actions > New workflow > set up a workflow yourself > ...
   - modify the parameters below and copy & paste in the editor
 
-- GCP Cloud Functions function will be updated every time the `main.py`, `urls.py`, or `update-cloud-functions.yml` files are modified and changes are pushed to the `master` branch
+- GCP Cloud Functions function will be updated every time `main.py`, `urls.py`, or `update-cloud-functions.yml` files are modified and changes are pushed to the `master` branch
 
 ### Parameters
 - **`gcloud functions deploy`** - name of the existing function
