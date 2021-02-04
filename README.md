@@ -2,7 +2,7 @@
 
 Integrates GitHub and GCP Cloud Functions to auto deploy an ***existing*** function on code changes.
 
-This example assumes that the GitHub repo containing the function code and its dependencies, is synced with GCP **Cloud Source Repositories**. The `--source` parameter points to the GCP CSR directory containing the `main.py` code. If the repos are not synced, the source would be a local Zip file containing the `main.py` code.
+This example assumes that the GitHub repo containing the function code and its dependencies, is synced with GCP **Cloud Source Repositories**. The `--source` parameter points to the GCP CSR directory containing the `main.py` code. If the repos were not synced, the source would be a local Zip file containing the `main.py` code.
 
 ### Usage
 - GitHub > Settings > Secrets >  
