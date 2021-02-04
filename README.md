@@ -5,7 +5,7 @@ Integrates GitHub and GCP Cloud Functions to auto deploy an ***existing*** funct
 This example assumes that the GitHub repo containing the function code and its dependencies, is synced with GCP **Cloud Source Repositories**. The `--source` parameter points to the GCP CSR directory containing the `main.py` code. If the repos were not synced, the source would be a local Zip file containing the `main.py` code.
 
 ### Usage
-In the example below, GCP Cloud Functions function will be updated every time `main.py`, `urls.py`, or `update-cloud-functions.yml` files are modified and changes are pushed to the `master` branch.
+In the example below, the GCP Cloud Functions function will be updated every time `main.py`, `urls.py`, or `update-cloud-functions.yml` files are modified and changes are pushed to the `master` branch.
 
 - GitHub > Settings > Secrets >  
   - New secret > Name: `GCP_PROJECT_ID`, Value: `...` > Add secret  
