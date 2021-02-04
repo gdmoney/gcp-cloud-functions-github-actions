@@ -9,7 +9,7 @@ This example assumes that the GitHub repo containing the function code and its d
   - New secret > Name: `GCP_PROJECT_ID`, Value: `...` > Add secret  
   - New secret > Name: `GCP_SA_KEY`, Value: `...` > Add secret
   
-- GitHub > Actions > New workflow > set up a workflow yourself > ...
+- GitHub > Actions > New workflow > set up a workflow yourself
   - modify the parameters below and copy & paste in the editor
 
 - GCP Cloud Functions function will be updated every time `main.py`, `urls.py`, or `update-cloud-functions.yml` files are modified and changes are pushed to the `master` branch
