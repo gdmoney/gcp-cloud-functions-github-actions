@@ -18,7 +18,6 @@ In the example below, the GCP Cloud Functions function will be updated every tim
 - **`--region`** - region of the existing function 
 - **`--source`** - Cloud Source Repository URL (Cloud Functions > click on the function > Details > Equivalent REST)
 
-
 ```
 name: update-cloud-functions
 
