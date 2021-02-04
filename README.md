@@ -31,9 +31,6 @@ on:
     - 'GCP/main.py'
     - 'GCP/urls.py'
     - '.github/workflows/update-cloud-functions.yml'
-  pull_request:
-    branches:
-    - master
 
 jobs:
   
