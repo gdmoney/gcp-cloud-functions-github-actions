@@ -6,8 +6,8 @@ This example assumes that the GitHub repo containing the function code and its d
 
 ### Usage
 - GitHub > Settings > Secrets >  
-  - New secret > Name: `GCP_PROJECT_ID`, Value: ... > Add secret  
-  - New secret > Name: `GCP_SA_KEY`, Value: ... > Add secret
+  - New secret > Name: `GCP_PROJECT_ID`, Value: `...` > Add secret  
+  - New secret > Name: `GCP_SA_KEY`, Value: `...` > Add secret
   
 - GitHub > Actions > New workflow > set up a workflow yourself > ...
   - modify the parameters below and copy & paste in the editor
