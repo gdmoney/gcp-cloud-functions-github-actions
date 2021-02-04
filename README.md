@@ -11,8 +11,7 @@ In the example below, the GCP Cloud Functions function will be updated every tim
   - New secret > Name: `GCP_PROJECT_ID`, Value: `...` > Add secret  
   - New secret > Name: `GCP_SA_KEY`, Value: `...` > Add secret
   
-- GitHub > Actions > New workflow > set up a workflow yourself
-  - modify the parameters below and copy & paste in the editor
+- GitHub > Actions > New workflow > set up a workflow yourself > modify the parameters below and copy & paste in the editor
 
 ### Parameters
 - **`gcloud functions deploy`** - name of the existing function
