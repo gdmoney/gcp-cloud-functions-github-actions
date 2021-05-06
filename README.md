@@ -5,7 +5,7 @@ Integrates GitHub and GCP Cloud Functions to automate update and redeployment an
 This example assumes that the GitHub repo containing the function code and its dependencies, is synced with GCP **Cloud Source Repositories**. The `--source` parameter points to the GCP CSR directory containing the `main.py` code. If the repos were not synced, the source would be a local Zip file containing the `main.py` code.
 
 ### Usage
-In the example below, the GCP Cloud Functions function will be updated every time `main.py`, `urls.py`, or `update-cloud-functions.yml` files are modified and changes are pushed to the `master` branch.
+In the example below, the workflow will run and update the GCP Cloud Functions function every time `main.py`, `urls.py`, or `update-cloud-functions.yml` files are modified and changes are pushed to the `master` branch. It can also be triggerred manually with the `workflow_dispatch` event.
 
 - GitHub > Settings > Secrets >  
   - New secret > Name: `GCP_PROJECT_ID`, Value: `...` > Add secret  
@@ -29,6 +29,7 @@ on:
     - 'GCP/main.py'
     - 'GCP/urls.py'
     - '.github/workflows/update-cloud-functions.yml'
+  workflow_dispatch:
 
 jobs:
   
