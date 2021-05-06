@@ -16,7 +16,7 @@ In the example below, the workflow will run and update the GCP Cloud Functions f
 ### Parameters
 - **`gcloud functions deploy`** - name of the existing function
 - **`--region`** - region of the existing function 
-- **`--source`** - Cloud Source Repository URL (Cloud Functions > click on the function > Details > Equivalent REST)
+- **`--source`** - Cloud Source Repository URL *(Cloud Functions > click on the function > Details > Equivalent REST)*
 
 ```
 name: update-cloud-functions
